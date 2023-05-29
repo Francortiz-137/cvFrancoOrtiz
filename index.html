@@ -10,9 +10,10 @@
 </head>
 <body>
     <header>
-        
-        <img class="logo" src="img/logo.jpg" alt="foto">
-        <h1 class="titulo">CV FRANCO ORTIZ</h1>
+        <div class="header-content">
+            <img class="logo" src="img/logo.jpg" alt="foto">
+            <h1 class="titulo">CV FRANCO ORTIZ</h1>
+        </div>
     </header>
     <main>
         <nav>
@@ -20,7 +21,7 @@
                 <li class="about-me"><a href="sobremi.html">Sobre mi</a></li>
             </ul>
         </nav>
-        <section id="personal">
+        <section id="personal" class="container">
             <h2 class="titulo subtitulo">DATOS PERSONALES</h2>
             <ul>
                 <li><span class="info"><i class="fa fa-laptop"></i> Nombre Completo:</span> Franco Ignacio Ortiz Cabrera</li>
@@ -36,7 +37,7 @@
             </ul>
 
         </section>
-        <section id="exp">
+        <section id="exp" class="container">
             <h2 class="titulo subtitulo">EXPERIENCIA LABORAL</h2>
             <dl>
                 <dt> Accenture  Desarrollador / Analista de datos
@@ -89,7 +90,7 @@
             </dl>
 
         </section>
-        <section id="academic">
+        <section id="academic" class="container">
             <h2 class="titulo subtitulo">FORMACIÓN ACADÉMICA</h2>
             <dl>
                 <dt>Universidad Catolica de Valparaiso</dt>
@@ -97,7 +98,7 @@
                     <dd>Ingenieria Civil en Informatica</dd>
             </dl>
         </section>
-        <section>
+        <section class="container">
             
             <h2 class="titulo subtitulo">CURSOS</h2>
             <dl>
@@ -105,24 +106,48 @@
                     <dd>Desarrollo de backend aplicacion billetera virtual</dd>
                     <dd><a href=""> <i class="fa fa-github"></i> GitHub</a> </dd>
                 <dt> <span >Mindhub</span> 
-                    <dd> Desarrollo Back-end de aplicación web “Salvo”, juego de estrategia similar a “Batalla naval” utilizando Framework Spring con Spring Boot en lenguaje Java 8. Se entregó el proyecto exitosamente cumpliendo con los requerimientos solicitados y se recibió un feedback muy positivo. </dd>
+                    <dd> Desarrollo Back-end de aplicación web “Salvo”, juego de estrategia similar a “Batalla naval” </dd>
                     <dd><a href=""> <i class="fa fa-github"></i> GitHub</a> </dd>
                 </dt>
                 
             </dl>
         </section>
-        <section id="technical">
+        <section id="technical" class="container">
             <h2 class="titulo subtitulo">HABILIDADES TECNICAS</h2>
-            <ul>
-                <li>Lenguajes de programacion</li>
-                <li>Frameworks</li>
-                <li>Metodologias agile,Scrum, kamban</li>
-                <li>Poo</li>
-                <li>Cloud</li>
-                <li>Sql NoSql</li>
-                <li>Control de versiones</li>
-                <li>otros</li>
-            </ul>
+            <div>
+                <div class="front-skills">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Angular</li>
+                    </ul>
+                    <img class="skill-icon" src="img/html.svg" alt="html">
+                    <img class="skill-icon" src="img/css.svg" alt="css">
+                    <img class="skill-icon" src="img/js.svg" alt="javascript">
+                </div>
+    
+                <div class="back-skills">
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Java</li>
+                        <li>Spring</li>
+                        <li>MySql</li>
+                    </ul>
+    
+                    <img class="skill-icon" src="img/node.svg" alt="node.js">
+                    <img class="skill-icon" src="img/java.svg" alt="java">
+                    <img class="skill-icon" src="img/spring.svg" alt="spring">
+                    <img class="skill-icon" src="img/mysql.svg" alt="mysql">
+                </div>
+    
+                <div class="other-skills">
+                    <ul>
+                        <li>git</li>
+                    </ul>
+                    <img class="skill-icon" src="img/git.svg" alt="git">
+                </div>
+            </div>
         </section>
 
 <!--     
